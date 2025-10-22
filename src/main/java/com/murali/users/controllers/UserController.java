@@ -1,8 +1,8 @@
-package com.murali.users.controllers;
+package com.cloudawsdevops.users.controllers;
 
 
-import com.murali.users.entities.User;
-import com.murali.users.services.UserService;
+import com.cloudawsdevops.users.entities.User;
+import com.cloudawsdevops.users.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -46,3 +46,4 @@ public class UserController {
         return "redirect:/users";
     }
 }
+
