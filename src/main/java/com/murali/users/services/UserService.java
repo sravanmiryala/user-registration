@@ -1,4 +1,4 @@
-package com.murali.users.services;
+package com.cloudawsdevops.users.services;
 
 
 import com.cloudawsdevops.users.entities.User;
@@ -30,4 +30,5 @@ public class UserService {
         userRepository.deleteById(id);
     }
 }
+
 
