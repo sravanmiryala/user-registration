@@ -1,8 +1,8 @@
 package com.murali.users.services;
 
 
-import com.murali.users.entities.User;
-import com.murali.users.repositories.UserRepository;
+import com.cloudawsdevops.users.entities.User;
+import com.cloudawsdevops.users.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,3 +30,4 @@ public class UserService {
         userRepository.deleteById(id);
     }
 }
+
