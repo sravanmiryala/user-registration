@@ -1,4 +1,4 @@
-package com.murali.users;
+package com.cloudawsdevops.users;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
