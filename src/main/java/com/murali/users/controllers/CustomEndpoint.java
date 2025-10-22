@@ -1,4 +1,4 @@
-package com.murali.users.controllers;
+package com.cloudawsdevops.users.controllers;
 
 import org.springframework.boot.actuate.endpoint.annotation.Endpoint;
 import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
@@ -28,3 +28,4 @@ public class CustomEndpoint {
         data.put("status", status);
     }
 }
+
