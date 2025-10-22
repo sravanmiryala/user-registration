@@ -1,4 +1,4 @@
-package com.murali.users.model;
+package com.cloudawsdevops.users.model;
 
 public class User {
     private String name;
@@ -15,3 +15,4 @@ public class User {
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
 }
+
