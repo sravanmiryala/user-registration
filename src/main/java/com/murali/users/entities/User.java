@@ -1,4 +1,4 @@
-package com.murali.users.entities;
+package com.cloudawsdevops.users.entities;
 
 import jakarta.persistence.*;
 
@@ -51,3 +51,4 @@ public class User {
 
     // Constructors
 }
+
