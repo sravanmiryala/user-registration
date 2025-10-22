@@ -1,13 +1,16 @@
 package com.cloudawsdevops.users;
 
+import com.cloudawsdevops.users.repositories.UserRepository;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
 
 @SpringBootTest
-@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 class UsersApplicationTests {
+
+    // Mock the repository so Spring can autowire UserService without a real DB
+    @MockBean
+    private UserRepository userRepository;
 
     @Test
     void contextLoads() {
