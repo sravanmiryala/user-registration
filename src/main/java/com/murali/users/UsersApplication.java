@@ -1,4 +1,4 @@
-package com.murali.users;
+package com.cloudawsdevops.users;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
